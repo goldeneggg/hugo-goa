@@ -76,3 +76,50 @@ div.highlight *
 /* GenericTraceback */ .chroma .gt { color: #99cc66 }
 /* GenericUnderline */ .chroma .gl { text-decoration: underline }
 /* TextWhitespace */ .chroma .w { color: #bbbbbb }
+
+/* Customize h tags */
+h1, h2, .h1, .h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: .1em;
+}
+h3, .h3 {
+    margin-top: 40px;
+}
+h4, .h4 {
+    margin-top: 30px;
+}
+h1.title {
+    margin-top: 30px;
+    border-bottom: none;
+}
+
+/* customize */
+h1.author
+{
+    margin-top: 30px;
+    border-bottom: none;
+}
+
+/* Customize figs */
+figure.awslogo img {
+    width: 286px;
+    height: 42px;
+}
+figure.awstag img {
+    width: 238px;
+    height: 17px;
+}
+figure.center {
+    text-align: center;
+}
+figure img {
+    text-align: center;
+    width: 480px;
+}
+figcaption h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
