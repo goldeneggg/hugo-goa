@@ -104,6 +104,9 @@
   {{ with .Site.Params.social.whatsapp}}
   <a href="https://wa.me/{{.}}" aria-label="Whatsapp" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
   {{ end }}
+  {{ with .Site.Params.social.gist_resume}}
+  <a href="https://gist.github.com/{{.}}" aria-label="Resume" target="_blank"><i class="fas fa-file" aria-hidden="true"></i></a>
+  {{ end }}
   {{ with .Site.Params.social.email }}
   <a href="mailto:{{.}}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
   {{ end }}
